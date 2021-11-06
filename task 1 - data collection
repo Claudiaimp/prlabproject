@@ -1,1 +1,9 @@
+#we have imported the three main libraries needed 
+import json
+import pandas as pd
+import requests
 
+#We have created a variable assigning the integer 12 
+#and we have also created an empty list called 'datafr'
+num_of_pages = 12
+datafr = []
