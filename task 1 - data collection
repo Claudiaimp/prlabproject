@@ -7,9 +7,14 @@ import requests
 #and we have also created an empty list called 'datafr'
 num_of_pages = 12
 datafr = []
+
 #we opened a “for” cycle that iterates the page numbers within the url
 #Then we use the command “request.get” so that all form data is encoded into the url
 for n in range(1, num_of_pages):
     url = "https://api.artic.edu/api/v1/artworks?page=" + str(n) + "&limit=100"
     response = requests.get(url)
     json_data = response.json()
+    
+#Then we have appended to our list the 'data' values from the API
+    for d in json_data['data']:
+        datafr.append(d)
