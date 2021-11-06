@@ -19,7 +19,6 @@ for n in range(1, num_of_pages):
     for d in json_data['data']:
         datafr.append(d)
 
-
 #We created a csv file with all our observations
 #We have also replaced the not available data with 0 
 #The final data set with more than one thousand observations is done 
