@@ -6,7 +6,7 @@
 
 ----
 
-For first the task, we decided to work with the API provided by the Art Institute of Chicago. 
+>For first the task, we decided to work with the API provided by the Art Institute of Chicago. 
 The documentation for the API can be accessed at the following link: [Documentation | Art Institute of Chicago API](https://api.artic.edu/docs/). The API provides JSON-formatted data as a REST-style and it is a collector of all the possible information regarding the physical and virtual collection and information of the Art Institute.For the project we decided to work with the artworks' collection data. The collection is composed by 115506 objects and each artworks has 93 variables associated. We decided to retrieve 1100 artworks. 
 A detailed documentation of the script can be found in the file "Task_1.pdf".
 ----
